@@ -1923,3 +1923,19 @@
 
 	});
 }());
+
+// popApp
+document.addEventListener('DOMContentLoaded', function () {
+    // Seleccionar los elementos del popup y el botón de cerrar
+    const popupOverlay = document.getElementById('popup-overlay');
+    const closeBtn = document.getElementById('close-popup-btn');
+
+    // Mostrar el popup al cargar la página
+    popupOverlay.style.display = 'flex';
+
+    // Añadir evento al botón para cerrar el popup
+    closeBtn.addEventListener('click', function () {
+        popupOverlay.style.display = 'none';
+    });
+});
+// fin popApp

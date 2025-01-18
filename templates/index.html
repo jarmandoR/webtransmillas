@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
 
-<head>
-  <title>[TITULO]</title>
-  <meta name="format-detection" content="telephone=no">
-  <meta name="viewport"
-    description="transportamos carga a  Arauca, Tame, Saravena, Arauquita, Yopal, Bucaramanga, Barrancabermeja y Villavicencio."
-    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta charset="utf-8">
-  <link rel="icon" href="images/favicon1.ico" type="image/x-icon">
-  <!-- Stylesheets-->
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700,900">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/style.css" id="main-styles-link">
-  <link  rel="stylesheet" href="css/chatBot.css" type="text/css"/>
-  <!--[if lt IE 10]>
+  <head>
+    <title>[TITULO]</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+      description="transportamos carga a  Arauca, Tame, Saravena, Arauquita, Yopal, Bucaramanga, Barrancabermeja y Villavicencio."
+      content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon1.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css"
+      href="//fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700,900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css" id="main-styles-link">
+    <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
     <![endif]-->
-</head>
+  </head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LXFSKEGZQ4"></script>
-<script>
+  <!-- Google tag (gtag.js) -->
+  <script async
+    src="https://www.googletagmanager.com/gtag/js?id=G-LXFSKEGZQ4"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -32,580 +33,718 @@
   gtag('config', 'G-LXFSKEGZQ4');
 </script>
 
-<body>
-  <div class="preloader">
-    <div class="preloader-body">
-      <div class="cssload-container">
-        <div class="cssload-speeding-wheel"></div>
+  <body>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Cargando...</p>
       </div>
-      <p>Cargando...</p>
     </div>
-  </div>
-  <div class="page">
-    <!-- Page Header-->
-    <header class="section page-header">
-      <!-- RD Navbar-->
-      [MENU]
-    </header>
-    <!-- Swiper-->
-    <section class="section swiper-container swiper-slider swiper-slider-1" data-loop="true" data-autoplay="5000"
-      data-simulate-touch="false" data-slide-effect="fade">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide context-dark" data-slide-bg="images/b3.jpg">
-          <div class="swiper-slide-caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-10 col-lg-8">
-                  <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="font-weight-medium"> Somos transmillas  </span></h1>
-                  <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="250" style="max-width: 600px">
-                     Una Empresa Dedicada al trasnporte de carga a diferentes partes de colombia .</p><a class="button button-lg button-primary"
-                    href="//api.whatsapp.com/send?phone= +573102847718 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?" data-caption-animate="fadeInUp" data-caption-delay="450" target="_blank">contactanos.</a>
+    <!-- /// popApp -->
+    <div class="popup-overlay" id="popup-overlay">
+      <div class="popup">    
+          <button id="close-popup-btn" class="close-btn">&times;</button>     
+          <h3>¡Gestiona tus envíos por WhatsApp! <span class="emoji-icon">📦</span>
+            <span class="emoji-icon">📱</span></h3>
+          <p>Ahora puedes gestionar tus envíos, recibir actualizaciones y resolver dudas de forma rápida y sencilla por WhatsApp.
+           <br>Solo envía un "Hola" y gestiona todo en segundos.  </p>
+           <a href="https://api.whatsapp.com/send?phone=+573108093773&text=Hola" target="_blank">
+             <p><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="40"> Haz click aqui</p>
+           </a>
+      </div>
+    </div>
+    <!-- fin PopApp -->
+
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        [MENU]
+      </header>
+      <!-- Swiper-->
+      <section class="section swiper-container swiper-slider swiper-slider-1"
+        data-loop="true" data-autoplay="5000"
+        data-simulate-touch="false" data-slide-effect="fade">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide context-dark" data-slide-bg="images/b3.jpg">
+            <div class="swiper-slide-caption">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-10 col-lg-8">
+                    <h1 data-caption-animate="fadeInUp"
+                      data-caption-delay="100"><span class="font-weight-medium">
+                        Somos transmillas </span></h1>
+                    <p class="lead" data-caption-animate="fadeInUp"
+                      data-caption-delay="250" style="max-width: 600px">
+                      Una Empresa Dedicada al trasnporte de carga a diferentes
+                      partes de colombia .</p><a
+                      class="button button-lg button-primary"
+                      href="//api.whatsapp.com/send?phone= +573108093773 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
+                      data-caption-animate="fadeInUp" data-caption-delay="450"
+                      target="_blank">contactanos.</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="swiper-slide context-dark" data-slide-bg="images/b1.jpg" style="background-position: 50% 50%">
-          <div class="swiper-slide-caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-10 col-lg-6">
-                  <h2 data-caption-animate="fadeInUp" data-caption-delay="100"><span
-                      class="font-weight-medium">¿Necesitas transportar carga o paquetes? </span> </h2>
-                  <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="250">Recogemos tu paquete donde lo necesites y lo llevamos de forma rápida y segura hasta su lugar de destino envianos tu numero.</p>
-                  <form action="https://transmillasweb.com/guardarnumerotele.php" method="post">
-                    <input type="tel" id="telefono"  name="telefono"><input type="submit"  class="btn-get-started animated fadeInUp scrollto" value="Enviar">
-                  </form>
-                  <a class="button button-lg button-primary"
-                    href="#" data-caption-animate="fadeInUp" data-caption-delay="450">ver</a>
+          <div class="swiper-slide context-dark" data-slide-bg="images/b1.jpg"
+            style="background-position: 50% 50%">
+            <div class="swiper-slide-caption">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-10 col-lg-6">
+                    <h2 data-caption-animate="fadeInUp"
+                      data-caption-delay="100"><span
+                        class="font-weight-medium">¿Necesitas transportar carga
+                        o paquetes? </span> </h2>
+                    <p class="lead" data-caption-animate="fadeInUp"
+                      data-caption-delay="250">Recogemos tu paquete donde lo
+                      necesites y lo llevamos de forma rápida y segura hasta su
+                      lugar de destino envianos tu numero.</p>
+                    <form
+                      action="https://transmillasweb.com/guardarnumerotele.php"
+                      method="post">
+                      <input type="tel" id="telefono" name="telefono"><input
+                        type="submit"
+                        class="btn-get-started animated fadeInUp scrollto"
+                        value="Enviar">
+                    </form>
+                    <a class="button button-lg button-primary"
+                      href="#" data-caption-animate="fadeInUp"
+                      data-caption-delay="450">ver</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="swiper-slide context-dark" data-slide-bg="images/b2.jpg" style="background-position: 50% 50%">
-          <div class="swiper-slide-caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-10 col-lg-8">
-                  <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="font-weight-medium"> El servicio que necesecita donde lo necesita.</h1>
-                  <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="250" style="max-width: 700px">
-                    Conoce nuestros sedes en Arauca, Tame, Saravena, Arauquita, Yopal, Bucaramanga, Barrancabermeja y Villavicencio. Cotiza tu servicio..</p><a class="button button-lg button-primary"
-                    href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Más</a>
+          <div class="swiper-slide context-dark" data-slide-bg="images/b2.jpg"
+            style="background-position: 50% 50%">
+            <div class="swiper-slide-caption">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-10 col-lg-8">
+                    <h1 data-caption-animate="fadeInUp"
+                      data-caption-delay="100"><span class="font-weight-medium">
+                        El servicio que necesecita donde lo necesita.</h1>
+                      <p class="lead" data-caption-animate="fadeInUp"
+                        data-caption-delay="250" style="max-width: 700px">
+                        Conoce nuestros sedes en Arauca, Tame, Saravena,
+                        Arauquita, Yopal, Bucaramanga, Barrancabermeja y
+                        Villavicencio. Cotiza tu servicio..</p><a
+                        class="button button-lg button-primary"
+                        href="#" data-caption-animate="fadeInUp"
+                        data-caption-delay="450">Más</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- Swiper Pagination-->
-      <div class="container swiper-pagination-wrap">
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
-    <section id="solicita_factura" class="section section-lg">
-      <div class=" m-0 row justify-content-center">
-          <div class="container-card-center">
-         <iframe height="700" width="500"  src="https://sistema.transmillas.com/rastreocliente.php" allowfullscreen  frameborder="0"
-         style="border:0"></iframe>
-         </div>
-     </section>
-    <!-- Advantages-->
-    <section class="section context-dark">
-      <div class="row row-flex no-gutters">
-        <div class="col-md-6 col-lg-3">
-          <div class="blurb-boxed-2">
-            <div class="icon mdi mdi-clipboard"></div>
-            <h6 class="title">Nuestra Misión</h6>
-            <p class="exeption"> Ayudar a las personas a encontrar soluciones de trasporte de forma rapida y segura.</p>
+          <!-- Swiper Pagination-->
+          <div class="container swiper-pagination-wrap">
+            <div class="swiper-pagination"></div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="blurb-boxed-2 blurb-boxed-dark">
-            <div class="icon mdi mdi-security"></div>
-            <h6 class="title">+10 Años de Experiencia</h6>
-            <p class="exeptionWe">Hemos mejorando durante +10 años y tenemos el mejor equipo de
-          trabajo para garantizarle  Respaldo y solidez..</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="blurb-boxed-2 blurb-boxed-darker">
-            <div class="icon mdi mdi-star"></div>
-            <h6 class="title">Nuestro Compromiso</h6>
-            <p class="exeptionWe">Tu tiempo vale, queremos edificar relaciones con nuestros clientes basadas en la confiaza y la transparencia.</p>
-            <p class="exeptionWe">Transmillas recoge tus envios en la puerta de tu casa.</p>
-          </div>
-        </div>
-     
-        <div class="col-md-6 col-lg-3">
-          <div class="blurb-boxed-2 blurb-boxed-darkest">
-            <p class="exeption">Confia en nuestros servicios</p>
-            <h5 class="title">Cotiza nuestro portafolio de Servicios.</h5><a
-              class="button button-lg button-primary" href="https://sistema.transmillas.com/cotiza_clientes.php" target="_blank">Cotiza</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-
-    <!-- Card-->    
-    <section class="section section-lg" id="sedes">
-      <div class="container text-center">
-        <h2>Nuestras Sedes.</h2>
-        <p> Conoce nuestros servicios. Especialistas en el transporte de carga, paquetes, remesas...</p>
-        <div class="row no-gutters justify-content-center">
-          <div class="container-card">
-            <div class="card">
-              <figure>
-                <img src="images/sedes/BOGOTA1.jpeg" class="img-fluid" alt="">
-              </figure>
-              <div class="contenido-card">
-                <div class="title">Bogotá</div>
-                <p>Carrera 20 # 56-26 GALERIAS.</p>
-                <p>Tel: 3165252762-3202558946</p> 
-                <p>     3145549694</p> 
-                <p>What:3002173949-3176459254</p> 
-                <p>     3102847718</p> 
-                                  
-                <p>Bogota PBX:3103122</p>
-                <a href="href=tel:600123456> Contacto: 600123456" title="Llamar"
-                  onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
-                    class="icon linearicons-telephone"></i></a>
-                <a href="https://www.google.com/maps/place/Transmillas+Logistica+y+Transportadora/@4.6444805,-74.0728308,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9b0c0c1d3889:0xaa375872fd07807e!8m2!3d4.6444752!4d-74.0706421!16s%2Fg%2F11n69qg7yy?hl=es"
-                  title="Ver en el mapa" target="_blank"><i class="icon linearicons-map"></i></a>
-                <a href="https://api.whatsapp.com/send?phone= +573102847718 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
-                  title="Whatsapp" target="_blank"><i class="icon linearicons-bubbles"></i></a>
-              </div>
+        </section>
+        <section id="solicita_factura" class="section section-lg">
+          <div class=" m-0 row justify-content-center">
+            <div class="container-card-center">
+              <iframe height="700" width="500"
+                src="https://sistema.transmillas.com/rastreocliente.php"
+                allowfullscreen frameborder="0"
+                style="border:0"></iframe>
             </div>
-            <div class="card">
-              <figure>
-                <img src="images/sedes/ARAUCA.jpg" class="img-fluid" alt="">
-              </figure>
-              <div class="contenido-card">
-                <div class="title">Arauca</div>
-                <p>CARRERA 21 # 15-29.</p>
-                <p>Tel/What: 3176459273 - 3202557714</p>
-                <p>Bogota PBX:3103122</p>
-                <a href="href=tel:600123456> Contacto: 600123456" title="Llamar"
-                  onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
-                    class="icon linearicons-telephone"></i></a>
-                <a href= "https://www.google.com/maps/place/Transmillas/@7.0813392,-70.7600055,17z/data=!3m1!4b1!4m6!3m5!1s0x8e6febf9fd00208d:0x6b437df4bcc5932c!8m2!3d7.0813339!4d-70.7578168!16s%2Fg%2F11f6ytxrdl?hl=es"
-                  title="Ver en el mapa" target="_blank"><i class="icon linearicons-map"></i></a>
-                <a href="https://api.whatsapp.com/send?phone= +573176459273 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
-                  title="Whatsapp" target="_blank"><i class="icon linearicons-bubbles"></i></a>
-              </div>
-            </div>
-            <div class="card">
-              <figure>
-                <img src="images/sedes/bucaramanga.jpg" class="img-fluid" alt="">
-              </figure>
-              <div class="contenido-card">
-                <div class="title">Bucaramanga</div>
-                <p>Avenida Calle 70 #32-25 Sentido Giron/Bucaramanga.</p>
-                <p>Tel/What: 3176459257 -3176428314</p>
-                <p>Bogota PBX:3103122</p>
-                <a href="href=tel:600123456> Contacto: 600123456" title="Llamar"
-                  onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
-                    class="icon linearicons-telephone"></i></a>
-                <a href="https://www.google.com/maps/place/Transmillas/@7.1040707,-73.1137472,17z/data=!3m1!4b1!4m6!3m5!1s0x8e683fe229a24fc3:0x74a58c0116b47cac!8m2!3d7.1040654!4d-73.1115585!16s%2Fg%2F11h0bc71h2?hl=es"
-                  title="Ver en el mapa" target="_blank"><i class="icon linearicons-map"></i></a>
-                <a href="https://api.whatsapp.com/send?phone= +573176428314 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
-                  title="Whatsapp" target="_blank"><i class="icon linearicons-bubbles"></i></a>
-              </div>
-            </div>
-            <div class="card">
-              <figure>
-                <img src="images/sedes/tame1.jpeg " class="img-fluid" alt="">
-                <div class="contenido-card">
-                  <div class="title">Tame</div>
-                  <p>CARRERA 14 # 13 - 18.</p>
-                  <p>Tel/What: 3176460987
-
-                  </p>
-                  <p>Bogota PBX:3103122</p>
-                  <a href="href=tel:600123456> Contacto: 600123456" title="Llamar"
-                    onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
-                      class="icon linearicons-telephone"></i></a>
-                  <a href="https://goo.gl/maps/wEUSaDk5K3y3sXrb7"
-                    title="Ver en el mapa" target="_blank"><i class="icon linearicons-map"></i></a>
-                  <a href="https://api.whatsapp.com/send?phone= +573176460987 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
-                    title="Whatsapp" target="_blank"><i class="icon linearicons-bubbles"></i></a>
+          </section>
+          <!-- Advantages-->
+          <section class="section context-dark">
+            <div class="row row-flex no-gutters">
+              <div class="col-md-6 col-lg-3">
+                <div class="blurb-boxed-2">
+                  <div class="icon mdi mdi-clipboard"></div>
+                  <h6 class="title">Nuestra Misión</h6>
+                  <p class="exeption"> Ayudar a las personas a encontrar
+                    soluciones de trasporte de forma rapida y segura.</p>
                 </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-card">
-          <div class="card">
-            <figure>
-              <img src="images/sedes/sarav.jpg" class="img-fluid" alt="">
-            </figure>
-            <div class="contenido-card">
-              <div class="title">Saravena</div>
-              <p>CARRERA 18 # 25 - 37 .</p>
-              <p>Tel/What 3176459275 -3152433884     </p>
-              <p>Bogota PBX:3103122</p>
-              <a href="href=tel:600123456> Contacto: 600123456" title="Llamar"
-                onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
-                  class="icon linearicons-telephone"></i></a>
-              <a href="https://www.google.com/maps/place/Transmillas/@6.9534608,-71.8823264,17z/data=!3m1!4b1!4m6!3m5!1s0x8e6f338cd74e34af:0x3b657a28c444c971!8m2!3d6.9534555!4d-71.8780992!16s%2Fg%2F11t3zh6q9n?hl=es"
-                title="Ver en el mapa" target="_blank"><i class="icon linearicons-map"></i></a>
-              <a href="https://api.whatsapp.com/send?phone= +573176459275 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
-                title="Whatsapp" target="_blank"><i class="icon linearicons-bubbles"></i></a>
-            </div>
-          </div>
-          <div class="card">
-            <figure>
-              <img src="images/sedes/yopalp.jpg" class="img-fluid" alt="">
-            </figure>
-            <div class="contenido-card">
-              <div class="title">Yopal</div>
-              <p>OFICINA VIRTUAL.</p>
-              <p>Tel/What: 3175102845-3115729616
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="blurb-boxed-2 blurb-boxed-dark">
+                  <div class="icon mdi mdi-security"></div>
+                  <h6 class="title">+10 Años de Experiencia</h6>
+                  <p class="exeptionWe">Hemos mejorando durante +10 años y
+                    tenemos el mejor equipo de
+                    trabajo para garantizarle Respaldo y solidez..</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="blurb-boxed-2 blurb-boxed-darker">
+                  <div class="icon mdi mdi-star"></div>
+                  <h6 class="title">Nuestro Compromiso</h6>
+                  <p class="exeptionWe">Tu tiempo vale, queremos edificar
+                    relaciones con nuestros clientes basadas en la confiaza y la
+                    transparencia.</p>
+                  <p class="exeptionWe">Transmillas recoge tus envios en la
+                    puerta de tu casa.</p>
+                </div>
+              </div>
 
-              </p>
-              <p>Bogota PBX:3103122</p>
-              <a href="href=tel:600123456> Contacto: 600123456" title="Llamar"
-                onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
-                  class="icon linearicons-telephone"></i></a>
-              <a href="#"
-                title="Ver en el mapa" target="_blank"><i class="icon linearicons-map"></i></a>
-              <a href="https://api.whatsapp.com/send?phone= +573102847718 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
-                title="Whatsapp" target="_blank"><i class="icon linearicons-bubbles"></i></a>
+              <div class="col-md-6 col-lg-3">
+                <div class="blurb-boxed-2 blurb-boxed-darkest">
+                  <p class="exeption">Confia en nuestros servicios</p>
+                  <h5 class="title">Cotiza nuestro portafolio de
+                    Servicios.</h5><a
+                    class="button button-lg button-primary"
+                    href="https://sistema.transmillas.com/cotiza_clientes.php"
+                    target="_blank">Cotiza</a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <figure>
-              <img src="images/sedes/villaop.jpg" class="img-fluid" alt="">
-            </figure>
-            <div class="contenido-card">
-              <div class="title">Villao</div>
-              <p>OFICINA VIRTUAL.</p>
-              <p>Tel/What: 315 5893544</p>
-              <p>Bogota PBX:3103122</p>
-              <a href="href=tel:600123456> Contacto: 600123456" title="Llamar"
-                onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
-                  class="icon linearicons-telephone"></i></a>
-              <a href="#"
-                title="Ver en el mapa" target="_blank"><i class="icon linearicons-map"></i></a>
-              <a href="https://api.whatsapp.com/send?phone= +573102847718 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
-                title="Whatsapp" target="_blank"><i class="icon linearicons-bubbles"></i></a>
-            </div>
-          </div>
-          <div class="card">
-            <figure>
-              <img src="images/sedes/arauquita.jpg" class="img-fluid" alt="">
-            </figure>
-            <div class="contenido-card">
-              <div class="title">Arauquita</div>
-              <p>OFICINA VIRTUAL.</p>
-              <p>Tel: 3176428314-3176459257</p>
-              <p>Bogota PBX:3103122</p>
-              <a href="href=tel:600123456> Contacto: 600123456" title="Llamar"
-                onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
-                  class="icon linearicons-telephone"></i></a>
-              <a href="#"
-                title="Ver en el mapa" target="_blank"><i class="icon linearicons-map"></i></a>
-              <a href="https://api.whatsapp.com/send?phone= +573176428314 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
-                title="Whatsapp"  target="_blank"><i class="icon linearicons-bubbles"></i></a>
-            </div>
-          </div>
-        </div>
-    </section>
-    <!-- fin Card-->
-  <!-- cotiza-->
-  <section id="cotiza" class="services">
-    <div class="container ">
-    <!-- <div class="main-container"> -->
+          </section>
 
-     <div class="section-title">
-      <div aling ='center'><h2 class="title1">Cotiza</h2></div>
-      <br> 
-     </div>
-     <div class=" m-0 row justify-content-center">
-      <div class="cotiza-container">
-        <iframe  src="https://sistema.transmillas.com/cotiza_clientes.php" frameborder="0" allowfullscreen></iframe>
-      </div>
-     </div>     
-   </div>
- </section>
+          <!-- Card-->
+          <section class="section section-lg" id="sedes">
+            <div class="container text-center">
+              <h2>Nuestras Sedes.</h2>
+              <p> Conoce nuestros servicios. Especialistas en el transporte de
+                carga, paquetes, remesas...</p>
+              <div class="row no-gutters justify-content-center">
+                <div class="container-card">
+                  <div class="card">
+                    <figure>
+                      <img src="images/sedes/BOGOTA1.jpeg" class="img-fluid"
+                        alt>
+                    </figure>
+                    <div class="contenido-card">
+                      <div class="title">Bogotá</div>
+                      <p>Carrera 20 # 56-26 GALERIAS.</p>
+                      <p>Tel: 3165252762-3202558946</p>
+                      <p> 3145549694</p>
+                      <p>What:3002173949-3176459254</p>
+                      <p> 3102847718</p>
 
-    <section class="section section-xs bg-primary">
-      <div class="container">
-        <div class="box-cta">
-          <div class="box-cta-inner">
-            <h3>¿Tienes alguna duda? <a class="button button-lg button-white" href="https://api.whatsapp.com/send?phone= +573176428314 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
-                target="_blank"> Comunícate </a> estamos para asesorarte.</h3>
-          </div>
-          <div class="box-cta-inner"></div>
-        </div>
-      </div>
-    </section>
+                      <p>Bogota PBX:3103122</p>
+                      <a href="href=tel:600123456> Contacto: 600123456"
+                        title="Llamar"
+                        onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
+                          class="icon linearicons-telephone"></i></a>
+                      <a
+                        href="https://www.google.com/maps/place/Transmillas+Logistica+y+Transportadora/@4.6444805,-74.0728308,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9b0c0c1d3889:0xaa375872fd07807e!8m2!3d4.6444752!4d-74.0706421!16s%2Fg%2F11n69qg7yy?hl=es"
+                        title="Ver en el mapa" target="_blank"><i
+                          class="icon linearicons-map"></i></a>
+                      <a
+                        href="https://api.whatsapp.com/send?phone= +573102847718 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
+                        title="Whatsapp" target="_blank"><i
+                          class="icon linearicons-bubbles"></i></a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <figure>
+                      <img src="images/sedes/ARAUCA.jpg" class="img-fluid" alt>
+                    </figure>
+                    <div class="contenido-card">
+                      <div class="title">Arauca</div>
+                      <p>CARRERA 21 # 15-29.</p>
+                      <p>Tel/What: 3176459273 - 3202557714</p>
+                      <p>Bogota PBX:3103122</p>
+                      <a href="href=tel:600123456> Contacto: 600123456"
+                        title="Llamar"
+                        onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
+                          class="icon linearicons-telephone"></i></a>
+                      <a
+                        href="https://www.google.com/maps/place/Transmillas/@7.0813392,-70.7600055,17z/data=!3m1!4b1!4m6!3m5!1s0x8e6febf9fd00208d:0x6b437df4bcc5932c!8m2!3d7.0813339!4d-70.7578168!16s%2Fg%2F11f6ytxrdl?hl=es"
+                        title="Ver en el mapa" target="_blank"><i
+                          class="icon linearicons-map"></i></a>
+                      <a
+                        href="https://api.whatsapp.com/send?phone= +573176459273 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
+                        title="Whatsapp" target="_blank"><i
+                          class="icon linearicons-bubbles"></i></a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <figure>
+                      <img src="images/sedes/bucaramanga.jpg" class="img-fluid"
+                        alt>
+                    </figure>
+                    <div class="contenido-card">
+                      <div class="title">Bucaramanga</div>
+                      <p>Avenida Calle 70 #32-25 Sentido Giron/Bucaramanga.</p>
+                      <p>Tel/What: 3176459257 -3176428314</p>
+                      <p>Bogota PBX:3103122</p>
+                      <a href="href=tel:600123456> Contacto: 600123456"
+                        title="Llamar"
+                        onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
+                          class="icon linearicons-telephone"></i></a>
+                      <a
+                        href="https://www.google.com/maps/place/Transmillas/@7.1040707,-73.1137472,17z/data=!3m1!4b1!4m6!3m5!1s0x8e683fe229a24fc3:0x74a58c0116b47cac!8m2!3d7.1040654!4d-73.1115585!16s%2Fg%2F11h0bc71h2?hl=es"
+                        title="Ver en el mapa" target="_blank"><i
+                          class="icon linearicons-map"></i></a>
+                      <a
+                        href="https://api.whatsapp.com/send?phone= +573176428314 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
+                        title="Whatsapp" target="_blank"><i
+                          class="icon linearicons-bubbles"></i></a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <figure>
+                      <img src="images/sedes/tame1.jpeg " class="img-fluid" alt>
+                      <div class="contenido-card">
+                        <div class="title">Tame</div>
+                        <p>CARRERA 14 # 13 - 18.</p>
+                        <p>Tel/What: 3176460987
 
-    <section class="section section-sm">
-      <div class="container">
-        <div class="row row-30">
-          <div class="col-sm-6"><a class="box-link heading-3" href="#"
-              style="background-image: url(images/Servicios/envios.jpg);"><span class="box-link-inner">Remesas.</span></a></div>
-          <div class="col-sm-6"><a class="box-link heading-3" href="#"
-              style="background-image: url(images/Servicios/tonelada.jpg);"><span class="box-link-inner">Envio de paquetes.</span></a></div>
-          <div class="col-sm-12"><a class="box-link heading-3" href="#"
-              style="background-image: url(images/Servicios/montacarga2.jpg);"><span class="box-link-inner">Transporte de carga.</span></a></div>
-        </div>
-      </div>
-    </section>
+                        </p>
+                        <p>Bogota PBX:3103122</p>
+                        <a href="href=tel:600123456> Contacto: 600123456"
+                          title="Llamar"
+                          onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
+                            class="icon linearicons-telephone"></i></a>
+                        <a href="https://goo.gl/maps/wEUSaDk5K3y3sXrb7"
+                          title="Ver en el mapa" target="_blank"><i
+                            class="icon linearicons-map"></i></a>
+                        <a
+                          href="https://api.whatsapp.com/send?phone= +573176460987 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
+                          title="Whatsapp" target="_blank"><i
+                            class="icon linearicons-bubbles"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-card">
+                  <div class="card">
+                    <figure>
+                      <img src="images/sedes/sarav.jpg" class="img-fluid" alt>
+                    </figure>
+                    <div class="contenido-card">
+                      <div class="title">Saravena</div>
+                      <p>CARRERA 18 # 25 - 37 .</p>
+                      <p>Tel/What 3176459275 -3152433884 </p>
+                      <p>Bogota PBX:3103122</p>
+                      <a href="href=tel:600123456> Contacto: 600123456"
+                        title="Llamar"
+                        onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
+                          class="icon linearicons-telephone"></i></a>
+                      <a
+                        href="https://www.google.com/maps/place/Transmillas/@6.9534608,-71.8823264,17z/data=!3m1!4b1!4m6!3m5!1s0x8e6f338cd74e34af:0x3b657a28c444c971!8m2!3d6.9534555!4d-71.8780992!16s%2Fg%2F11t3zh6q9n?hl=es"
+                        title="Ver en el mapa" target="_blank"><i
+                          class="icon linearicons-map"></i></a>
+                      <a
+                        href="https://api.whatsapp.com/send?phone= +573176459275 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
+                        title="Whatsapp" target="_blank"><i
+                          class="icon linearicons-bubbles"></i></a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <figure>
+                      <img src="images/sedes/yopalp.jpg" class="img-fluid" alt>
+                    </figure>
+                    <div class="contenido-card">
+                      <div class="title">Yopal</div>
+                      <p>OFICINA VIRTUAL.</p>
+                      <p>Tel/What: 3175102845-3115729616
 
+                      </p>
+                      <p>Bogota PBX:3103122</p>
+                      <a href="href=tel:600123456> Contacto: 600123456"
+                        title="Llamar"
+                        onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
+                          class="icon linearicons-telephone"></i></a>
+                      <a href="#"
+                        title="Ver en el mapa" target="_blank"><i
+                          class="icon linearicons-map"></i></a>
+                      <a
+                        href="https://api.whatsapp.com/send?phone= +573102847718 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
+                        title="Whatsapp" target="_blank"><i
+                          class="icon linearicons-bubbles"></i></a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <figure>
+                      <img src="images/sedes/villaop.jpg" class="img-fluid" alt>
+                    </figure>
+                    <div class="contenido-card">
+                      <div class="title">Villao</div>
+                      <p>OFICINA VIRTUAL.</p>
+                      <p>Tel/What: 315 5893544</p>
+                      <p>Bogota PBX:3103122</p>
+                      <a href="href=tel:600123456> Contacto: 600123456"
+                        title="Llamar"
+                        onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
+                          class="icon linearicons-telephone"></i></a>
+                      <a href="#"
+                        title="Ver en el mapa" target="_blank"><i
+                          class="icon linearicons-map"></i></a>
+                      <a
+                        href="https://api.whatsapp.com/send?phone= +573102847718 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
+                        title="Whatsapp" target="_blank"><i
+                          class="icon linearicons-bubbles"></i></a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <figure>
+                      <img src="images/sedes/arauquita.jpg" class="img-fluid"
+                        alt>
+                    </figure>
+                    <div class="contenido-card">
+                      <div class="title">Arauquita</div>
+                      <p>OFICINA VIRTUAL.</p>
+                      <p>Tel: 3176428314-3176459257</p>
+                      <p>Bogota PBX:3103122</p>
+                      <a href="href=tel:600123456> Contacto: 600123456"
+                        title="Llamar"
+                        onclick="return(navigator.userAgent.match(/Android | Iphone| Movile /i)) != null;"><i
+                          class="icon linearicons-telephone"></i></a>
+                      <a href="#"
+                        title="Ver en el mapa" target="_blank"><i
+                          class="icon linearicons-map"></i></a>
+                      <a
+                        href="https://api.whatsapp.com/send?phone= +573176428314 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
+                        title="Whatsapp" target="_blank"><i
+                          class="icon linearicons-bubbles"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- fin Card-->
+              <!-- cotiza-->
+              <section id="cotiza" class="services">
+                <div class="container ">
+                  <!-- <div class="main-container"> -->
 
-    <!-- The Best Banking Choise-->
-    <section class="section section-lg" id="servicios">
-      <div class="container">
-        <div class="block-lg text-center">
-          <h2>Otros Servicios</h2>
-          <p>Somos más que envios. Conoce nuestro modelo de negocio.</p>
-        </div>
-        <div class="row row-50 row-xxl-73">
-          <div class="col-sm-6 col-md-4 wow fadeInLeft">
-            <div class="blurb-image">
-              <div class="icon linearicons-home"></div>
-              <h6 class="title">Puerta a Puerta.</h6>
-              <p class="exeption">Recogemos y entregamos su carga o paquetes a donde necesite.</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.1s">
-            <div class="blurb-image">
-              <div class="icon linearicons-box"></div>
-              <h6 class="title">Cadena de Frio</h6>
-              <p class="exeption"> Traslada medicamentos o lo que requiera, con todos los protocolos de seguridad.</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
-            <div class="blurb-image">
-              <div class="icon linearicons-truck"></div>
-              <h6 class="title">Mudanza</h6>
-              <p class="exeption">Recogemos y trasladamos su trasteo. Apoyamos tu nuevo comienzo</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.1s">
-            <div class="blurb-image">
-              <div class="icon linearicons-zoom-in"></div>
-              <h6 class="title">Somos tu mejor aliado.</h6>
-              <p class="exeption">Tiene un negocio y busca quien trasporte sus productos.</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
-            <div class="blurb-image">
-              <div class="icon linearicons-truck"></div>
-              <h6 class="title">Transporte de carga</h6>
-              <p class="exeption">Necesita trasportar grandes volúmenes, podemos ayudarte.</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.3s">
-            <div class="blurb-image">
-              <div class="icon linearicons-battery-charging"></div>
-              <h6 class="title">Necesitas enviar tu paquete Urgente</h6>
-              <p class="exeption">Agiliza tus envíos de carga o paquetes, rápido y eficiente. </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+                  <div class="section-title">
+                    <div aling='center'><h2 class="title1">Cotiza</h2></div>
+                    <br>
+                  </div>
+                  <div class=" m-0 row justify-content-center">
+                    <div class="cotiza-container">
+                      <iframe
+                        src="https://sistema.transmillas.com/cotiza_clientes.php"
+                        frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </section>
 
-      <!-- A Few Words About Our Bank-->
-    <section class="section section-lg bg-gray-100" id="contacto">
-      <div class="container">
-        <div class="block-lg text-center">
-          <h2>transmillas empresa de carga</h2>
-          <p>Recuerda que puedes solicitar tu factura por correo.</p>
-        </div>
-        <div class="row row-20 justify-content-center justify-content-lg-between">
-          <div class="col-md-10 col-lg-6 wow fadeIn"><img class="img-bordered" src="images/contacto.jpg" alt=""
-              width="600" height="360" />
-          </div>
-          <div class="col-md-10 col-lg-6 col-xl-5">
-            <div class="text-block-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="45%" height="35"  fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.30-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-              </svg>
-              <br>
-              <h5>Bogotá - sede principal.</h5>
-              <h7> Bogota PBX:3103122</h7>
-              <br>
-              <h7>3165252762-3202558946</h7>
-              <br>
-              <h7>3145549694-3145496564</h7>
-              <br>
-              <h5>whatsapp</h5>
-              <h7>3002173949-3176459254</h7>
-              <br>
-              <h7>3102847718 </h7>
-              <br>
-              <h5>Horarios</h5>
-              <h7> l-v 7:30 am - 7:30 pm</h7> 
-              <br>
-              <h7> s 8:00 am - 5:00 pm</h7> 
-              <br>
-              <svg xmlns="http://www.w3.org/2000/svg" width="45%" height="35"  fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-              </svg>           
-              <br>
-              <h5>E-mail Para Facturacion</h5>
-              <h7> ventastransmillas@gmail.com</h7>
-              <br>
-              <h5>E-mail Para Reclamos</h5>
-              <h7> pqrtransmillas@gmail.com </h7>
-              <br>
-              <h5>E-mail Para recursos humanos</h5>
-              <h7> talentotransmillas@gmail.com </h7> 
-            
-              <div class="progress-linear-wrap">
-                
-              </div>
-              <!-- <a class="button button-lg button-primary" href="about.php">Ver Más.</a> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+              <section class="section section-xs bg-primary">
+                <div class="container">
+                  <div class="box-cta">
+                    <div class="box-cta-inner">
+                      <h3>¿Tienes alguna duda? <a
+                          class="button button-lg button-white"
+                          href="https://api.whatsapp.com/send?phone= +573176428314 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"
+                          target="_blank"> Comunícate </a> estamos para
+                        asesorarte.</h3>
+                    </div>
+                    <div class="box-cta-inner"></div>
+                  </div>
+                </div>
+              </section>
 
-          <!-- How to Order a New Card-->
-    <section class="section section-lg">
-      <div class="container text-center">
-        <h2>Nuestros Reconocimentos</h2>
-        <div class="row no-gutters justify-content-center"></div>
-        <div class="galeria">
-           <img src="images/Servicios/colcan.jpg" alt="8px">
-          <img src="images/Servicios/sanar.PNG" alt="">
-          <img src="images/Servicios/estrella.PNG" alt="">
-        </div>
-      </div>
-    </section>
-    <!-- Call to action-->
-    <section class="section section-xs bg-primary">
-      <div class="container">
-        <div class="box-cta">
-          <div class="box-cta-inner">
-            <h3>¿Tienes alguna duda? <a class="button button-lg button-white" href="https://api.whatsapp.com/send?phone= +573176428314 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?">Comunícate</a>
-              estamos para asesorarte.</h3>
-          </div>
-          <div class="box-cta-inner"></div>
-        </div>
-      </div>
-    </section>
-    <!-- Frequently Asked Questions-->
-    <!-- Testimonials-->
-    <section class="section section-lg bg-gray-50">
-      <div class="container text-center">
-        <h2>Nuestros Certificados</h2>
-        <!-- Owl Carousel-->
-        <div class="owl-carousel text-left" data-items="1" data-md-items="4" data-dots="true" data-nav="false"
-          data-stage-padding="0" data-loop="true" data-margin="10" data-mouse-drag="false" data-autoplay="true">
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/50.png" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/51.png" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/52.png" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/53.png" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/54.jpg" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/55.jpg" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/56.png" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/50.png" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/51.png" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/52.png" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/53.png" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/54.jpg" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/55.jpg" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
-          <blockquote class="quote quote-boxed-sm">
-            <div class="quote-author">
-              <div class="author-media"><img src="./images/client/56.png" alt="" width="200" />
-              </div>
-            </div>
-          </blockquote>
+              <section class="section section-sm">
+                <div class="container">
+                  <div class="row row-30">
+                    <div class="col-sm-6"><a class="box-link heading-3" href="#"
+                        style="background-image: url(images/Servicios/envios.jpg);"><span
+                          class="box-link-inner">Remesas.</span></a></div>
+                    <div class="col-sm-6"><a class="box-link heading-3" href="#"
+                        style="background-image: url(images/Servicios/tonelada.jpg);"><span
+                          class="box-link-inner">Envio de
+                          paquetes.</span></a></div>
+                    <div class="col-sm-12"><a class="box-link heading-3"
+                        href="#"
+                        style="background-image: url(images/Servicios/montacarga2.jpg);"><span
+                          class="box-link-inner">Transporte de
+                          carga.</span></a></div>
+                  </div>
+                </div>
+              </section>
 
-        </div>
-      </div>
-    </section>
+              <!-- The Best Banking Choise-->
+              <section class="section section-lg" id="servicios">
+                <div class="container">
+                  <div class="block-lg text-center">
+                    <h2>Otros Servicios</h2>
+                    <p>Somos más que envios. Conoce nuestro modelo de
+                      negocio.</p>
+                  </div>
+                  <div class="row row-50 row-xxl-73">
+                    <div class="col-sm-6 col-md-4 wow fadeInLeft">
+                      <div class="blurb-image">
+                        <div class="icon linearicons-home"></div>
+                        <h6 class="title">Puerta a Puerta.</h6>
+                        <p class="exeption">Recogemos y entregamos su carga o
+                          paquetes a donde necesite.</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 wow fadeInLeft"
+                      data-wow-delay="0.1s">
+                      <div class="blurb-image">
+                        <div class="icon linearicons-box"></div>
+                        <h6 class="title">Cadena de Frio</h6>
+                        <p class="exeption"> Traslada medicamentos o lo que
+                          requiera, con todos los protocolos de seguridad.</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 wow fadeInLeft"
+                      data-wow-delay="0.2s">
+                      <div class="blurb-image">
+                        <div class="icon linearicons-truck"></div>
+                        <h6 class="title">Mudanza</h6>
+                        <p class="exeption">Recogemos y trasladamos su trasteo.
+                          Apoyamos tu nuevo comienzo</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 wow fadeInLeft"
+                      data-wow-delay="0.1s">
+                      <div class="blurb-image">
+                        <div class="icon linearicons-zoom-in"></div>
+                        <h6 class="title">Somos tu mejor aliado.</h6>
+                        <p class="exeption">Tiene un negocio y busca quien
+                          trasporte sus productos.</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 wow fadeInLeft"
+                      data-wow-delay="0.2s">
+                      <div class="blurb-image">
+                        <div class="icon linearicons-truck"></div>
+                        <h6 class="title">Transporte de carga</h6>
+                        <p class="exeption">Necesita trasportar grandes
+                          volúmenes, podemos ayudarte.</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 wow fadeInLeft"
+                      data-wow-delay="0.3s">
+                      <div class="blurb-image">
+                        <div class="icon linearicons-battery-charging"></div>
+                        <h6 class="title">Necesitas enviar tu paquete
+                          Urgente</h6>
+                        <p class="exeption">Agiliza tus envíos de carga o
+                          paquetes, rápido y eficiente. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
 
- 
-   
-               <section id="factura" class="section section-lg">
-                 <div class="container text-center">
-                   <h2>Solicita tu factura aqui.</h2>
-                   <div class="row no-gutters justify-content-center">
-                     <div class="container">
+              <!-- A Few Words About Our Bank-->
+              <section class="section section-lg bg-gray-100" id="contacto">
+                <div class="container">
+                  <div class="block-lg text-center">
+                    <h2>transmillas empresa de carga</h2>
+                    <p>Recuerda que puedes solicitar tu factura por correo.</p>
+                  </div>
+                  <div
+                    class="row row-20 justify-content-center justify-content-lg-between">
+                    <div class="col-md-10 col-lg-6 wow fadeIn"><img
+                        class="img-bordered" src="images/contacto.jpg" alt
+                        width="600" height="360" />
+                    </div>
+                    <div class="col-md-10 col-lg-6 col-xl-5">
+                      <div class="text-block-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="45%"
+                          height="35" fill="currentColor"
+                          class="bi bi-telephone" viewBox="0 0 16 16">
+                          <path
+                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.30-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg>
+                        <br>
+                        <h5>Bogotá - sede principal.</h5>
+                        <h7> Bogota PBX:3103122</h7>
+                        <br>
+                        <h7>3165252762-3202558946</h7>
+                        <br>
+                        <h7>3145549694-3145496564</h7>
+                        <br>
+                        <h5>whatsapp</h5>
+                        <h7>3002173949-3176459254</h7>
+                        <br>
+                        <h7>3102847718 </h7>
+                        <br>
+                        <h5>Horarios</h5>
+                        <h7> l-v 7:30 am - 7:30 pm</h7>
+                        <br>
+                        <h7> s 8:00 am - 5:00 pm</h7>
+                        <br>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="45%"
+                          height="35" fill="currentColor" class="bi bi-envelope"
+                          viewBox="0 0 16 16">
+                          <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                        </svg>
+                        <br>
+                        <h5>E-mail Para Facturacion</h5>
+                        <h7> ventastransmillas@gmail.com</h7>
+                        <br>
+                        <h5>E-mail Para Reclamos</h5>
+                        <h7> pqrtransmillas@gmail.com </h7>
+                        <br>
+                        <h5>E-mail Para recursos humanos</h5>
+                        <h7> talentotransmillas@gmail.com </h7>
+
+                        <div class="progress-linear-wrap">
+
+                        </div>
+                        <!-- <a class="button button-lg button-primary" href="about.php">Ver Más.</a> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- How to Order a New Card-->
+              <section class="section section-lg">
+                <div class="container text-center">
+                  <h2>Nuestros Reconocimentos</h2>
+                  <div class="row no-gutters justify-content-center"></div>
+                  <div class="galeria">
+                    <img src="images/Servicios/colcan.jpg" alt="8px">
+                    <img src="images/Servicios/sanar.PNG" alt>
+                    <img src="images/Servicios/estrella.PNG" alt>
+                  </div>
+                </div>
+              </section>
+              <!-- Call to action-->
+              <section class="section section-xs bg-primary">
+                <div class="container">
+                  <div class="box-cta">
+                    <div class="box-cta-inner">
+                      <h3>¿Tienes alguna duda? <a
+                          class="button button-lg button-white"
+                          href="https://api.whatsapp.com/send?phone= +573176428314 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?">Comunícate</a>
+                        estamos para asesorarte.</h3>
+                    </div>
+                    <div class="box-cta-inner"></div>
+                  </div>
+                </div>
+              </section>
+              <!-- Frequently Asked Questions-->
+              <!-- Testimonials-->
+              <section class="section section-lg bg-gray-50">
+                <div class="container text-center">
+                  <h2>Nuestros Certificados</h2>
+                  <!-- Owl Carousel-->
+                  <div class="owl-carousel text-left" data-items="1"
+                    data-md-items="4" data-dots="true" data-nav="false"
+                    data-stage-padding="0" data-loop="true" data-margin="10"
+                    data-mouse-drag="false" data-autoplay="true">
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/50.png" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/51.png" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/52.png" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/53.png" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/54.jpg" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/55.jpg" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/56.png" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/50.png" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/51.png" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/52.png" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/53.png" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/54.jpg" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/55.jpg" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+                    <blockquote class="quote quote-boxed-sm">
+                      <div class="quote-author">
+                        <div class="author-media"><img
+                            src="./images/client/56.png" alt width="200" />
+                        </div>
+                      </div>
+                    </blockquote>
+
+                  </div>
+                </div>
+              </section>
+
+              <section id="factura" class="section section-lg">
+                <div class="container text-center">
+                  <h2>Solicita tu factura aqui.</h2>
+                  <div class="row no-gutters justify-content-center">
+                    <div class="container">
                       <div class="container">
-                        
+
                         <!-- <form action="avia-seguros/../bat/rd-mailform.php" method="POST" enctype="multipart/form-data">
                           <label for="imagen">Imagen:</label>
                           <input type="file" name="imagen" id="imagen">
                           <input type="submit" value="Enviar">
                         </form> -->
 
-
-                        <form action="https://www.transmillas.com/templates/facturaEmail.php" method="POST" enctype="multipart/form-data">
+                        <form
+                          action="https://www.transmillas.com/templates/facturaEmail.php"
+                          method="POST" enctype="multipart/form-data">
                           <div id="campos-dinamicos">
                             <!-- <div class="form-group">
                               <label for="nombre">Cargar imagen del rut </label>
@@ -617,97 +756,67 @@
                             </div> -->
                             <div class="form-group">
                               <label for="imagen">Cargar imagen del rut:</label>
-                              <input type="file" class="form-control"  name="file1" id="file1" placeholder="Ingrese su rut">
+                              <input type="file" class="form-control"
+                                name="file1" id="file1"
+                                placeholder="Ingrese su rut">
                             </div>
                             <div class="form-group"></div>
-                              <label for="imagen">Cargar imagen(es) de remesa:</label>
-                              <input type="file" class="form-control"  name="file2" id="file2" placeholder="Ingrese numero de remesa">
-                            </div>
+                            <label for="imagen">Cargar imagen(es) de
+                              remesa:</label>
+                            <input type="file" class="form-control" name="file2"
+                              id="file2" placeholder="Ingrese numero de remesa">
+                          </div>
 
-                              <!-- <label for="nombre">Cargar imagen(es) de remesa</label>
+                          <!-- <label for="nombre">Cargar imagen(es) de remesa</label>
                               <div class="form-group">  
                               <input type="file" class="form-control" name="remesa1" placeholder="Ingrese numero de remesa">
                                </div> -->
-                            </div>
-                          </div>
-                          
-                          <button type="submit" class="btn btn-primary">Enviar</button>
-                        </form>
+                        </div>
                       </div>
-                      </div>  
-           </div>
-         </div>
-       </section>
 
-    <!-- Page Footer-->
-    <footer class="section footer-2">
-      [FOOTER]
-    </footer>
+                      <button type="submit"
+                        class="btn btn-primary">Enviar</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
+          <!-- Page Footer-->
+          <footer class="section footer-2">
+            [FOOTER]
+          </footer>
 
-    <div class="chat-screen">
-      <div class="chat-header">
-          <div class="chat-header-title">
-              Bienvenido a Transmillas
+          <div class="chat-screen">    
+            </div>
+            <div class="chat-bot-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x "><path
+                  d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x "><line x1="18" y1="6" x2="6"
+                  y2="18"></line><line x1="6" y1="6" x2="18"
+                  y2="18"></line></svg>
+            </div>
+
+            <a id="app-whatsapp" target="_blanck"
+              href="https://api.whatsapp.com/send?phone= +573102847718 &amp;text=Hola?">
+              <img src='images/whatsapp.png' alt="Whatsapp">
+            </a>
           </div>
-          <div class="chat-header-option hide">
-              <span class="dropdown custom-dropdown">
-                  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  </a>
-                  <!-- <div class="btn-close" aria-label="Close" style="will-change: transform;">
-                      <a class="dropdown-item" href="javascript:void(0);">
-                              Enviar Telefono
-                      </a>
-                  </div> -->
-              </span>
-          </div>
-      </div>
-      <div class="chat-mail">
-        <!-- <div class="row">
-              <div class="col-md-12 text-center mb-2">
-                  <p>Hola !! ¿Quieres cotizar tu paquete? <a href="#cotiza" class="btn btn-danger"> click aqui</a> </p>
-              </div>
-          </div> -->
-  
-    <form action="https://sistema.transmillas.com/guardarnumerotele.php" method="post">
-          <div class="row">
-              <div class="col-md-12 text-center mb-2">
-                  <p>Hola ¡Envianos tu numero de celular nosotros te llamamos!</p>
-              </div>
-              <div class="col-md-12">
-                  <div class="form-group">
-                      <input type="tel" id="telefono"  name="telefono" class="form-control" placeholder="Número de telefono">
-                      <button type="submit"  class="btn btn-primary btn-rounded btn-block">Enviar </button>
-                    </div>
-              </div>
-              </div>
-              <div class="col-md-12">
-        
-                  
-              </div>
-             <div class="col-md-12">
-            
-             <!-- <button type="button" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button> -->
-                
-             </div>
-          </div>
-        </div>
-        <div class="chat-bot-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x "><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x "><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-        </div>
-
-
-    <a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone= +573102847718 &amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?">
-      <img src='images/whatsapp.png' alt="Whatsapp">
-    </a>
-  </div>
-  <!-- Global Mailform Output-->
-  <div class="snackbars" id="form-output-global"></div>
-  <!-- Javascript-->
-  <script src="js/core.min.js"></script>
-  <script src="js/script.js"></script>
-  <script>
+          <!-- Global Mailform Output-->
+          <div class="snackbars" id="form-output-global"></div>
+          <!-- Javascript-->
+          <script src="js/core.min.js"></script>
+          <script src="js/script.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+          
+          <script>
     $(this).children('img').toggleClass('hide');
           $(this).children('svg').toggleClass('animate');
           $('.chat-screen').toggleClass('show-chat');
@@ -730,9 +839,6 @@
       });
   });
 
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<script>
   function agregarCampo() {
     var divCampos = document.getElementById("campos-dinamicos");
 
@@ -753,9 +859,7 @@
     // Agregar el div del campo al contenedor de campos dinámicos
     divCampos.appendChild(divCampo);
   }
-</script>
 
-<script>
   $(document).ready(function() {
     $('#formulario-factura').submit(function(e) {
       e.preventDefault(); // Evita el envío normal del formulario
@@ -774,6 +878,6 @@
     });
   });
 </script>
-</body>
+        </body>
 
-</html>
+      </html>
